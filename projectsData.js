@@ -74,7 +74,7 @@ export default [
     summary: ""
   },
   {
-    title: "marioPlan",
+    title: "Mario Plan",
     images: [
       {
         original: '/original/mario-plan.jpg',

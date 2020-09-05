@@ -7,8 +7,7 @@ const About = () => {
         <div className='grid md:flex items-center justify-around md:pt-20 pt-10'>
           <img src='/about_orange.svg' className='h-40 lg:h-56' />
           <div className='font-bold text-2xl text-gray-800'>
-            <p>A baller since birth</p>
-
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A inventore quam corporis ea doloremque culpa incidunt dolorum similique possimus voluptas facilis autem, eligendi praesentium quibusdam labore et velit ducimus enim.</p>
           </div>
         </div>
       </div>

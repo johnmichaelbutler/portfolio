@@ -14,6 +14,7 @@ module.exports = {
       },
       width: {
         '9': '90',
+        '257': '257px',
         '317': '317px',
         '90vw': '90vw',
         '50vw': '50vw',
@@ -25,7 +26,8 @@ module.exports = {
         'primary': '#2d3748',
         'bg-light': '#f2f2f2',
         'bg-dark': '#696969',
-        'burnt-orange': '#b76d0c'
+        'burnt-orange': '#b76d0c',
+        'bg-blue': '#123ea5'
       },
       height: {
         '1/2': '50vh',
