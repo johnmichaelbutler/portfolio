@@ -20,14 +20,17 @@ module.exports = {
         '50vw': '50vw',
         '70vw': '70vw',
         '500': '500px',
-        '390': '390px'
+        '390': '390px',
+        '220': '220px'
       },
       colors: {
         'primary': '#2d3748',
         'bg-light': '#f2f2f2',
         'bg-dark': '#696969',
         'burnt-orange': '#b76d0c',
-        'bg-blue': '#123ea5'
+        'linkedin-blue':'#4875B4',
+        'twitter-blue': '#00ACED',
+        'github-purple': '#320782'
       },
       height: {
         '1/2': '50vh',
@@ -58,6 +61,7 @@ module.exports = {
     scrollSnapType: ['responsive'],
     display: ['responsive'],
     visibility: ['hover'],
+    backgroundColor: ['hover', 'responsive']
   },
   plugins: [
     require('tailwindcss-dark-mode')(),

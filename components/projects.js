@@ -16,10 +16,10 @@ const Projects = () => {
 );
 
   return (
-    <div className='h-screen md:pl-5 md:grid md:grid-cols-4 snap-start always-stop'>
+    <div className='h-auto md:pl-5 md:grid md:grid-cols-4 snap-start always-stop'>
       <div className='md:col-span-1' />
       <div className="md:col-span-3 pt-10">
-        <p className='text-oswald font-bold text-4xl mb-5 text-gray-800 text-center'>
+        <p className='section-header'>
           Projects
         </p>
         <div className='pt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-4'>

@@ -22,12 +22,14 @@ const Project = () => {
           <h1 className='text-center font-extrabold text-4xl text-primary'>{title}</h1>
           <h2 className='font-bond text-3xl text-center text-primary'>{description}</h2>
           <div className='flex justify-around'>
-            <button>
-              <a href={webLink} target="_blank" className='text-primary'><FontAwesomeIcon icon={faDesktop} className='h-10 ' />See The Site</a>
-            </button>
-            <button>
-              <a href={githubLink} target="_blank" className='text-primary'><FontAwesomeIcon icon={faGithub} className='h-10 ' />See the Code</a>
-            </button>
+              <a href={`${webLink}`} target="_blank">
+                <FontAwesomeIcon icon={faDesktop} className='h-10 mx-auto hover:text-gray-600 text-primary' />
+                <span>See The Site</span>
+              </a>
+              <a href={`${githubLink}`} target="_blank" >
+                <FontAwesomeIcon icon={faGithub} className='h-10 mx-auto hover:text-gray-600 text-primary' />
+                <span>See the Code</span>
+              </a>
           </div>
         </div>
       </div>

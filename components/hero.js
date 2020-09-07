@@ -18,7 +18,7 @@ const Hero = () => {
         Front End Developer / Occasional Back End Developer / Aspiring Cloud Developer
       </h3>
       <div className='flex justify-center'>
-        <Link href='/contact'>
+        <Link href='#contact'>
           <button type='button' className='bg-blue-900 btn inline-flex cursor-pointer '>
             <FontAwesomeIcon icon={faHandshake} className="h-6 inline w-10 mr-3" />
             Let's Work Together
