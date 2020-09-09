@@ -9,7 +9,7 @@ import Navbar from '../../components/navbar';
 const Project = () => {
   const router = useRouter();
   const project = projectsData.filter(project => project.id === router.query.id);
-  const {title, images, description, webLink, githubLink, id} = project[0];
+  const {title, images, description, webLink, githubLink, summary, id} = project[0];
 
   return (
     <>
@@ -19,9 +19,9 @@ const Project = () => {
           <MyGallery images={images} />
         </div>
         <div className='md:col-span-1'>
-          <h1 className='text-center font-extrabold text-4xl text-primary'>{title}</h1>
+          <h1 className='text-center font-extrabold text-4xl text-primary mt-6'>{title}</h1>
           <h2 className='font-bond text-3xl text-center text-primary'>{description}</h2>
-          <div className='flex justify-around'>
+          <div className='flex justify-around my-6'>
               <a href={`${webLink}`} target="_blank">
                 <FontAwesomeIcon icon={faDesktop} className='h-10 mx-auto hover:text-gray-600 text-primary' />
                 <span>See The Site</span>
@@ -30,6 +30,9 @@ const Project = () => {
                 <FontAwesomeIcon icon={faGithub} className='h-10 mx-auto hover:text-gray-600 text-primary' />
                 <span>See the Code</span>
               </a>
+          </div>
+          <div className='w-9/12 mx-auto my-12'>
+            <p className='text-primary text-xl'>{summary}</p>
           </div>
         </div>
       </div>

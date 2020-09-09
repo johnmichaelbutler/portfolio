@@ -23,7 +23,7 @@ export default [
     id: "reactcolorpicker",
     webLink: 'https://jb-reactcolorpicker.netlify.app/',
     githubLink: 'https://github.com/johnmichaelbutler/color-app',
-    summary: ""
+    summary: "reactcolorpicker is a web app that allows a user to use or create custom palettes of colors. This app is based on the final project from Colt Steele's React course on Udemy. However, this version of the app has been completely overhauled to exclusively use React Hooks and Context API. A user is able to create a custom palette of colors and, by utilizing local state, can return at a later time to use the custom palette."
   },
   {
     title: "crwnclothing",
@@ -45,11 +45,11 @@ export default [
         thumbnail: '/thumbnail/crwnclothing4_tn.jpg'
       },
     ],
-    description: "A react/redux project",
+    description: "A react/redux/firebase project",
     id: "crwnclothing",
     webLink: 'https://crwn-clothing-react-project.herokuapp.com/',
     githubLink: 'https://github.com/johnmichaelbutler/crwn-clothing',
-    summary: ""
+    summary: "Crwnclothing is an e-commerce progressive web app for a fictional clothing store. A user is able to browse through different categories of clothing and save them to a shopping cart. A user can create their own personal accont on the website using an email and password or through a third party authenticator, in this case, Google. A secure payment method is included through Stripe. A user can simulate a payment with a test credit card upon checkout. All security and authentification is managed on the backend through Google Firestore and Stripe. The complex state of the application is managed using Redux and Redux Thunk to handle async requests."
   },
   {
     title: "NASA Mission Control",
@@ -71,7 +71,7 @@ export default [
     id: "nasa-mission-control",
     webLink: 'http://ec2-3-81-118-56.compute-1.amazonaws.com:8000/index.html',
     githubLink: 'https://github.com/johnmichaelbutler/deno_final_project',
-    summary: ""
+    summary: "NASA Mission Control is a simulation of a  NASA Mission Control panel. A user is able to schedule a NASA rocket launch.  The user also has the ability to see upcoming and historical launches. NASA Mission Control uses TypeScript on the frontend, Deno on the backend to manage security and API requests, and is deployed using Docker and AWS EC2. This project, taken from the Zero to Mastery Deno course, also includes custom API endpoints for data requests."
   },
   {
     title: "Mario Plan",
@@ -97,7 +97,7 @@ export default [
     id: "mario-plan",
     webLink: 'https://marioplan-8b34e.web.app/signin',
     githubLink: 'https://github.com/johnmichaelbutler/marioPlan',
-    summary: ""
+    summary: "Mario Plan is a Mario-themed project management tool with authentification and cloud functions. This ap is made using React, Redux and Google Firebase. The user can create their own projects and notifications. In order to create or edit a project, the user must first log in or create an account. Authentification is managed through Google Firebase. State management is handled through Redux and notifications are handled through Firebase cloud functions. This app is taken from the React, Redux and Firebase tutorial from Net Ninja on YouTube."
   },
   {
     title: "Music Player",
@@ -111,7 +111,7 @@ export default [
     id: "music-player",
     webLink: 'https://johnmichaelbutler.github.io/music-player/',
     githubLink: 'https://github.com/johnmichaelbutler/music-player',
-    summary: ""
+    summary: "Music player is a javascript music player application. The user has the ability to fast forward or rewind in a song, as well as skip songs. This app was used to learn how to work with audio events in javascript and is taken from Zero to Mastery JS Projects course.   "
   },
   // {
   //   id: 6,

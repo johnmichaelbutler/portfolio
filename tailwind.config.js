@@ -27,7 +27,8 @@ module.exports = {
         'primary': '#2d3748',
         'bg-light': '#f2f2f2',
         'bg-dark': '#696969',
-        'burnt-orange': '#b76d0c',
+        // 'burnt-orange': '#b76d0c',
+        'burnt-orange': 'rgba(183, 109, 12, 60%)',
         'linkedin-blue':'#4875B4',
         'twitter-blue': '#00ACED',
         'github-purple': '#320782'
@@ -50,6 +51,25 @@ module.exports = {
       },
       screens: {
         '2xl': '1500px'
+      },
+      keyframes: {
+        'fade-in-left': {
+          '0%': { transform: 'translate(-100%)', opacity: '0'},
+          '100%': { transform: 'translate(0)', opacity: '1'}
+        },
+        'fade-in-right': {
+          '0%': { transform: 'translate(100%)', opacity: '0'},
+          '100%': { transform: 'translate(0)', opacity: '1'}
+        },
+        'fade-in': {
+          '0%': { opacity: '0'},
+          '100%': { opacity: '1'}
+        }
+      },
+      animation: {
+        'fade-in-left': 'fade-in-left .7s ease-in-out',
+        'fade-in-right': 'fade-in-right .7s ease-in-out',
+        'fade-in': 'fade-in 1s ease-in',
       }
     },
   },

@@ -24,7 +24,7 @@ const Contact = () => {
               <span className='font-bold'>LinkedIn:</span> johnmichaelbutler
             </a>
           </div>
-          <div className='md:w-3/5 mr-3 font-bold text-2xl text-primary my-auto text-center'>
+          <div className='md:w-3/5 md:mr-3 font-bold text-2xl text-primary my-auto text-center'>
             <p>Have any questions for me? Interested in working together? Let's connect!</p>
             <br />
             <a href="mailto:johnmichaelbutler@yahoo.com" className='hover:text-gray-600'>johnmichaelbutler@yahoo.com</a>
