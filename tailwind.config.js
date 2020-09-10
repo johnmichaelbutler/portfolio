@@ -75,6 +75,7 @@ module.exports = {
   },
   future: {
     removeDepreciatedGapUtilities: true,
+    purgeLayersByDefault: true
   },
   variants: {
     height: ['responsive'],
