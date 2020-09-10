@@ -2,7 +2,6 @@ import Link from 'next/link';
 
 const Card = (props) => {
   const { title, description, images, id } = props;
-
   return (
     <div className="relative h-full rounded overflow-hidden col-span-1 mx-auto">
       <img className="w-317 h-56 object-cover object-top" src={`${images[0].original}`} alt={id} />

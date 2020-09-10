@@ -1,19 +1,18 @@
 import Card from '../components/card';
-import projectsData from '../projectsData'
+import {projectData} from '../projectsData';
 const Projects = () => {
-
-  const cards = projectsData.map(project => (
-    <Card
-      title={project.title}
-      description={project.description}
-      key={project.id}
-      id={project.id}
-      images={project.images}
-      webLink={project.webLink}
-      githubLink={project.githubLink}
-    />
-  )
-);
+    const cards = projectData.map(project => (
+        <Card
+          title={project.title}
+          description={project.description}
+          key={project.id}
+          id={project.id}
+          images={project.images}
+          webLink={project.webLink}
+          githubLink={project.githubLink}
+        />
+      )
+    );
 
   return (
     <div className='h-auto md:h-screen md:pl-5 md:grid md:grid-cols-4 snap-start always-stop'>

@@ -28,6 +28,11 @@ const Contact = () => {
             <p>Have any questions for me? Interested in working together? Let's connect!</p>
             <br />
             <a href="mailto:johnmichaelbutler@yahoo.com" className='hover:text-gray-600'>johnmichaelbutler@yahoo.com</a>
+            <a href="/ButlerJohnResume.pdf" target="_blank">
+              <button type='button' className='bg-primary btn inline-flex cursor-pointer '>
+                Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>

@@ -1,20 +1,28 @@
-export default [
+export const projectData = [
   {
     title: "reactcolorpicker",
     images: [
       {
+      original: '/original/reactcolorpicker.webp',
+      thumbnail: '/thumbnail/reactcolorpicker_tn.webp',
       original: '/original/reactcolorpicker.jpg',
       thumbnail: '/thumbnail/reactcolorpicker_tn.jpg'
       },
       {
+      original: '/original/reactcolorpicker2.webp',
+      thumbnail: '/thumbnail/reactcolorpicker2_tn.webp',
       original: '/original/reactcolorpicker2.jpg',
       thumbnail: '/thumbnail/reactcolorpicker2_tn.jpg'
       },
       {
+      original: '/original/reactcolorpicker3.webp',
+      thumbnail: '/thumbnail/reactcolorpicker3_tn.webp',
       original: '/original/reactcolorpicker3.jpg',
       thumbnail: '/thumbnail/reactcolorpicker3_tn.jpg'
       },
       {
+      original: '/original/reactcolorpicker4.webp',
+      thumbnail: '/thumbnail/reactcolorpicker4_tn.webp',
       original: '/original/reactcolorpicker4.jpg',
       thumbnail: '/thumbnail/reactcolorpicker4_tn.jpg'
       },
@@ -29,18 +37,26 @@ export default [
     title: "crwnclothing",
     images: [
       {
+        original: '/original/crwnclothing.webp',
+        thumbnail: '/thumbnail/crwnclothing_tn.webp',
         original: '/original/crwnclothing.jpg',
         thumbnail: '/thumbnail/crwnclothing_tn.jpg'
       },
       {
+        original: '/original/crwnclothing2.webp',
+        thumbnail: '/thumbnail/crwnclothing2_tn.webp',
         original: '/original/crwnclothing2.jpg',
         thumbnail: '/thumbnail/crwnclothing2_tn.jpg'
       },
       {
+        original: '/original/crwnclothing3.webp',
+        thumbnail: '/thumbnail/crwnclothing3_tn.webp',
         original: '/original/crwnclothing3.jpg',
         thumbnail: '/thumbnail/crwnclothing3_tn.jpg'
       },
       {
+        original: '/original/crwnclothing4.webp',
+        thumbnail: '/thumbnail/crwnclothing4_tn.webp',
         original: '/original/crwnclothing4.jpg',
         thumbnail: '/thumbnail/crwnclothing4_tn.jpg'
       },
@@ -55,14 +71,20 @@ export default [
     title: "NASA Mission Control",
     images: [
       {
+        original: '/original/deno.webp',
+        thumbnail: '/thumbnail/deno_tn.webp',
         original: '/original/deno.jpg',
         thumbnail: '/thumbnail/deno_tn.jpg'
       },
       {
+        original: '/original/deno2.webp',
+        thumbnail: '/thumbnail/deno2_tn.webp',
         original: '/original/deno2.jpg',
         thumbnail: '/thumbnail/deno2_tn.jpg'
       },
       {
+        original: '/original/deno3.webp',
+        thumbnail: '/thumbnail/deno3_tn.webp',
         original: '/original/deno3.jpg',
         thumbnail: '/thumbnail/deno3_tn.jpg'
       },
@@ -77,18 +99,26 @@ export default [
     title: "Mario Plan",
     images: [
       {
+        original: '/original/mario-plan.webp',
+        thumbnail: '/thumbnail/mario-plan_tn.webp',
         original: '/original/mario-plan.jpg',
         thumbnail: '/thumbnail/mario-plan_tn.jpg'
       },
       {
+        original: '/original/mario-plan2.webp',
+        thumbnail: '/thumbnail/mario-plan2_tn.webp',
         original: '/original/mario-plan2.jpg',
         thumbnail: '/thumbnail/mario-plan2_tn.jpg'
       },
       {
+        original: '/original/mario-plan3.webp',
+        thumbnail: '/thumbnail/mario-plan3_tn.webp',
         original: '/original/mario-plan3.jpg',
         thumbnail: '/thumbnail/mario-plan3_tn.jpg'
       },
       {
+        original: '/original/mario-plan4.webp',
+        thumbnail: '/thumbnail/mario-plan4_tn.webp',
         original: '/original/mario-plan4.jpg',
         thumbnail: '/thumbnail/mario-plan4_tn.jpg'
       },
@@ -103,6 +133,8 @@ export default [
     title: "Music Player",
     images: [
       {
+        original: '/original/music-player.webp',
+        thumbnail: '/thumbnail/music-player_tn.webp',
         original: '/original/music-player.jpg',
         thumbnail: '/thumbnail/music-player_tn.jpg'
       }
@@ -116,10 +148,24 @@ export default [
   // {
   //   id: 6,
   //   title: "Smart Brain Face Detector",
-  //   image: 'smart-brain.jpg',
+  //   image: 'smart-brain.webp',
   //   description: "A React project",
   //   alt: "A React project",
   //   webLink: 'https://butler-smart-brain.herokuapp.com/',
   //   githubLink: 'https://github.com/johnmichaelbutler/smart-brain-api'
   // },
 ];
+
+export const getProjectData = (id) => {
+  return projectData.filter(project => project.id === id);
+}
+
+export const getAllProjectIds = () => {
+  return [
+    { params: { id: 'reactcolorpicker'}},
+    { params: { id: 'crwnclothing'}},
+    { params: { id: 'nasa-mission-control'}},
+    { params: { id: 'mario-plan'}},
+    { params: { id: 'music-player'}},
+  ]
+}
