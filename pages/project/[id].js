@@ -47,7 +47,6 @@ export default Project;
 
 export async function getStaticProps({params}) {
   const project = getProjectData(params.id);
-  console.log(project);
   return {
     props: {
       project

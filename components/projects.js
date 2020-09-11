@@ -15,9 +15,9 @@ const Projects = () => {
     );
 
   return (
-    <div className='h-auto md:h-screen md:pl-5 md:grid md:grid-cols-4 snap-start always-stop'>
-      <div className='md:col-span-1' />
-      <div className="md:col-span-3 pt-10">
+    <div className='h-auto lg:h-screen lg:pl-5 md:grid lg:grid-cols-4 snap-start always-stop mb-24 lg:mb-0'>
+      <div className='lg:col-span-1' />
+      <div className="lg:col-span-3 pt-10">
         <p className='section-header'>
           Projects
         </p>

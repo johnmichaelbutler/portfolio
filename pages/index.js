@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Hero from '../components/hero';
 import Skills from '../components/skills';
-import Navbar from '../components/navbar';
 import Projects from '../components/projects';
 import About from '../components/about';
 import Contact from '../components/contact';

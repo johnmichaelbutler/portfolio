@@ -85,7 +85,6 @@ module.exports = {
     backgroundColor: ['hover', 'responsive']
   },
   plugins: [
-    require('tailwindcss-dark-mode')(),
     require('tailwindcss-scroll-snap')
   ],
 }
