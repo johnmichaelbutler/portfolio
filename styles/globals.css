@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@import "~react-image-gallery/styles/css/image-gallery.css";
+@import url('../node_modules/react-image-gallery/styles/css/image-gallery.css');
 
 /* purgecss start ignore */
 @tailwind base;
