@@ -27,7 +27,6 @@ module.exports = {
         'primary': '#2d3748',
         'bg-light': '#f2f2f2',
         'bg-dark': '#696969',
-        // 'burnt-orange': '#b76d0c',
         'burnt-orange': 'rgba(183, 109, 12, 60%)',
         'linkedin-blue':'#4875B4',
         'twitter-blue': '#00ACED',
@@ -82,9 +81,16 @@ module.exports = {
     scrollSnapType: ['responsive'],
     display: ['responsive'],
     visibility: ['hover'],
-    backgroundColor: ['hover', 'responsive']
+    backgroundColor: ['hover', 'responsive'],
+    translate: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+    boxShadow: ['responsive', 'hover', 'focus', 'active'],
   },
   plugins: [
     require('tailwindcss-scroll-snap')
   ],
 }
+
+// 'color-transition': {
+//   '0%': { color: '#2d3748', backgroundColor: 'white'},
+//   '100%': { color: 'white', backgroundColor}
+// }

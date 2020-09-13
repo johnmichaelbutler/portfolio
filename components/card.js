@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Card = (props) => {
   const { title, description, images, id } = props;
   return (
-    <div className="relative h-full rounded overflow-hidden col-span-1 mx-auto">
+    <div className="relative h-full rounded overflow-hidden col-span-1 mx-auto shadow-xl">
       <img className="w-317 h-56 object-cover object-top" src={`${images[0].original}`} alt={id} />
       <div
         className="
@@ -16,7 +16,7 @@ const Card = (props) => {
             <p className='flex text-xl lg:-text-2xl text-primary justify-center mt-3'>{description}</p>
           <Link href='/project/[id]' as={`/project/${id}`}>
           <button
-            className='flex mt-5 h-8 w-1/2 justify-center text-primary rounded border border-gray-400 transform translate-x-1/2 translate-y-1/2'
+            className='flex mt-5 h-8 w-1/2 justify-center text-primary rounded border border-primary transform translate-x-1/2 translate-y-1/2 shadow-md hover:text-white hover:bg-primary transition-colors duration-300'
           >
             See More
           </button>

@@ -17,11 +17,11 @@ const Project = ({project}) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className='md:grid md:grid-cols-2 mt-20'>
-        <div className='md:col-span-1 md:max-w-full max-w-3/4 mx-auto my-0 w-full'>
+      <div className='lg:grid lg:grid-cols-2 mt-20'>
+        <div className='lg:col-span-1 lg:max-w-full max-w-3/4 mx-auto my-0 w-full'>
           <MyGallery images={images} />
         </div>
-        <div className='md:col-span-1'>
+        <div className='lg:col-span-1'>
           <h1 className='text-center font-extrabold text-4xl text-primary mt-6'>{title}</h1>
           <h2 className='font-bond text-3xl text-center text-primary'>{description}</h2>
           <div className='flex justify-around my-6'>

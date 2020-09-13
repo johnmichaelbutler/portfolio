@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('../node_modules/react-image-gallery/styles/css/image-gallery.css');
+/* <span>Photo by <a href="https://unsplash.com/@burc1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Burcu</a> on <a href="https://unsplash.com/t/travel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
 
 /* purgecss start ignore */
 @tailwind base;
@@ -29,12 +30,22 @@ html {
   @apply font-bold py-3 px-4 my-10 rounded text-white text-sm;
 }
 
+
 .navbarOpen {
   @apply bg-gray-600 px-4 py-3 rounded;
 }
 
 .section-header {
-  @apply font-normal text-5xl mb-10 text-primary text-center border-2 rounded-lg  border-primary w-220 px-8 mx-auto;
+  @apply font-normal text-6xl mb-10 text-primary text-center rounded-lg;
+  -webkit-box-reflect: below -30px linear-gradient(transparent, rgba(0,0,0,0.2));
+  text-shadow: 2px 2px rgba(0,0,0,0.2);
   font-family: 'Lobster';
 }
-/* <span>Photo by <a href="https://unsplash.com/@burc1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Burcu</a> on <a href="https://unsplash.com/t/travel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
+
+.drop-shadow {
+  filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+.text-shadow {
+  text-shadow: 5px 4px 4px rgba(0,0,0,0.2);
+}
