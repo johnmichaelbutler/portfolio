@@ -1,8 +1,8 @@
 module.exports = {
-  purge: [
-    './src/**/*.html',
-    './src/**/*.js',
-  ],
+  // purge: [
+  //   './src/**/*.html',
+  //   './src/**/*.js',
+  // ],
   theme: {
     maxWidth: {
       '3/4': '75%'
