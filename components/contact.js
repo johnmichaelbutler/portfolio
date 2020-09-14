@@ -13,7 +13,7 @@ const Contact = () => {
           <div className='lg:w-2/5 flex flex-col text-primary items-center mb-5'>
             <a href="https://twitter.com/codesfortacos" target="_blank">
               <FontAwesomeIcon icon={faTwitter} className='w-16 lg:w-20 mx-auto hover:text-twitter-blue' />
-              <span className='font-bold'>Twitter:</span> @codesForTacos
+              <span className='font-bold'>Twitter:</span> @JohnButlerDev
             </a>
             <a href="https://github.com/johnmichaelbutler" target="_blank">
               <FontAwesomeIcon icon={faGithub} className='w-16 lg:w-20 mx-auto hover:text-github-purple' />
