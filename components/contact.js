@@ -8,18 +8,18 @@ const Contact = () => {
     <div id='contact' className='h-auto lg:h-screen lg:grid md:grid-cols-4 lg:snap-start lg:always-stop mx-2 lg:pt-20'>
       <div className='lg:col-span-1' />
       <div className='lg:col-span-3 md:pt-40 pt-20'>
-        <p className='section-header'>Contact</p>
+        <p className='section-header reflect-small'>Contact</p>
         <div className='lg:flex lg:pt-20'>
           <div className='lg:w-2/5 flex flex-col text-primary items-center mb-5'>
-            <a href="https://twitter.com/codesfortacos" target="_blank">
+            <a href="https://twitter.com/codesfortacos" target="_blank" rel="noopener">
               <FontAwesomeIcon icon={faTwitter} className='w-16 lg:w-20 mx-auto hover:text-twitter-blue' />
               <span className='font-bold'>Twitter:</span> @JohnButlerDev
             </a>
-            <a href="https://github.com/johnmichaelbutler" target="_blank">
+            <a href="https://github.com/johnmichaelbutler" target="_blank" rel="noopener">
               <FontAwesomeIcon icon={faGithub} className='w-16 lg:w-20 mx-auto hover:text-github-purple' />
               <span className='font-bold'>Github:</span> johnmichaelbutler
             </a>
-            <a href="https://www.linkedin.com/in/johnmichaelbutler/" target="_blank">
+            <a href="https://www.linkedin.com/in/johnmichaelbutler/" target="_blank" rel="noopener">
               <FontAwesomeIcon icon={faLinkedinIn } className='w-16 lg:w-20 mx-auto hover:text-linkedin-blue' />
               <span className='font-bold'>LinkedIn:</span> johnmichaelbutler
             </a>
@@ -29,7 +29,7 @@ const Contact = () => {
             <br />
             <a href="mailto:johnmichaelbutler@yahoo.com" className='hover:text-gray-600'>johnmichaelbutler@yahoo.com</a>
             <div className='block mx-auto '>
-              <a href="/ButlerJohnResume.pdf" target="_blank" >
+              <a href="/ButlerJohnResume.pdf" target="_blank" rel="noopener">
                 <button type='button' className='bg-primary btn cursor-pointer transform shadow-lg hover:shadow-2xl hover:-translate-y-1 active:outline-none active:translate-y-0 active:shadow-lg focus:outline-none'>
                   Resume
                 </button>
