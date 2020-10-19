@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.js'],
+  purge: ['./**/*.html', './**/*.js'],
   theme: {
     maxWidth: {
       '3/4': '75%',
@@ -71,6 +71,7 @@ module.exports = {
   },
   future: {
     removeDepreciatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
   variants: {
     height: ['responsive'],
