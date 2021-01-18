@@ -15,11 +15,8 @@ const Hero = () => {
       />
       <div>
         <h2 className="font-oswald font-light text-4xl mb-2 mt-2 text-center">
-          Web Developer
+          AWS Cloud Developer
         </h2>
-        <h3 className="font-oswald font-thin text-3xl text-center mx-2">
-          Full Stack Developer
-        </h3>
         <div className="flex justify-center mx-2">
           <Link href="#contact">
             <button
@@ -40,6 +37,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// active:translate-y-0 active:shadow-lg
-// hover:shadow-2xl transform hover:-translate-y-1

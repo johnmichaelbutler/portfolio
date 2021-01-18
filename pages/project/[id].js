@@ -45,20 +45,20 @@ const Project = ({ project }) => {
           <h2 className="font-bond text-3xl text-center text-primary">
             {description}
           </h2>
-          <div className="flex justify-around my-6">
+          <div className="flex justify-around my-6 text-2xl">
             <a href={`${webLink}`} target="_blank">
               <FontAwesomeIcon
                 icon={faDesktop}
-                className="h-10 mx-auto hover:text-gray-600 text-primary"
+                className="mx-auto hover:text-gray-600 text-primary mr-3"
               />
               <span>See The Site</span>
             </a>
             <a href={`${githubLink}`} target="_blank">
               <FontAwesomeIcon
                 icon={faGithub}
-                className="h-10 mx-auto hover:text-gray-600 text-primary"
+                className="mx-auto hover:text-gray-600 text-primary mr-3"
               />
-              <span>See the Code</span>
+              <span className="t">See the Code</span>
             </a>
           </div>
           <div className="w-9/12 mx-auto my-12">

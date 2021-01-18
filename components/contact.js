@@ -11,16 +11,16 @@ const Contact = () => {
         <p className='section-header reflect-small'>Contact</p>
         <div className='lg:flex lg:pt-20'>
           <div className='lg:w-2/5 flex flex-col text-primary items-center mb-5'>
-            <a href="https://twitter.com/codesfortacos" target="_blank" rel="noopener">
-              <FontAwesomeIcon icon={faTwitter} className='w-16 lg:w-20 mx-auto hover:text-twitter-blue' />
+            <a href="https://twitter.com/johnbutlerdev" target="_blank" rel="noopener">
+              <FontAwesomeIcon icon={faTwitter} className='w-16 lg:w-20 mx-auto hover:text-twitter-blue mr-3' />
               <span className='font-bold'>Twitter:</span> @JohnButlerDev
             </a>
             <a href="https://github.com/johnmichaelbutler" target="_blank" rel="noopener">
-              <FontAwesomeIcon icon={faGithub} className='w-16 lg:w-20 mx-auto hover:text-github-purple' />
+              <FontAwesomeIcon icon={faGithub} className='w-16 lg:w-20 mx-auto hover:text-github-purple mr-3' />
               <span className='font-bold'>Github:</span> johnmichaelbutler
             </a>
             <a href="https://www.linkedin.com/in/johnmichaelbutler/" target="_blank" rel="noopener">
-              <FontAwesomeIcon icon={faLinkedinIn } className='w-16 lg:w-20 mx-auto hover:text-linkedin-blue' />
+              <FontAwesomeIcon icon={faLinkedinIn } className='w-16 lg:w-20 mx-auto hover:text-linkedin-blue mr-3' />
               <span className='font-bold'>LinkedIn:</span> johnmichaelbutler
             </a>
           </div>

@@ -7,7 +7,7 @@ const About = () => {
           <div className='flex flex-col content-center items-center'>
             <h1 className='font-lobster font-extrabold text-6xl mb-10 text-primary text-shadow'>Hi, I'm John</h1>
             <p className='font-bold text-xl md:text-2xl text-primary text-center'>
-              I am a web developer based in South Texas with an interest in simple and responsive websites. With a background in long-term volunteer work and education, I understand the role of technology isn't for technology's sake, but for people. Greater than my passion for programming is my desire to connect and help people solve their problems.
+              I am an AWS cloud developer with a focus on serverless development and infrastructure automation. I also have experience in full-stack web development using the MERN stack and Microservices architecture. By utilizing best practices and the latest features AWS has to offer, I am ready to contribute to the growth and value of a company.
             </p>
           </div>
         </div>

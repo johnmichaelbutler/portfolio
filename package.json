@@ -9,7 +9,8 @@
     "dev": "concurrently \"npm run next-dev\" \"npm run dev-css\"",
     "next-build": "next build",
     "build": "concurrently \"npm run next-build\" \"npm run build-css\"",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",

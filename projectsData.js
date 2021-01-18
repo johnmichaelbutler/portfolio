@@ -128,32 +128,7 @@ export const projectData = [
     webLink: 'https://marioplan-8b34e.web.app/signin',
     githubLink: 'https://github.com/johnmichaelbutler/marioPlan',
     summary: "Mario Plan is a Mario-themed project management tool with authentification and cloud functions. This ap is made using React, Redux and Google Firebase. The user can create their own projects and notifications. In order to create or edit a project, the user must first log in or create an account. Authentification is managed through Google Firebase. State management is handled through Redux and notifications are handled through Firebase cloud functions. This app is taken from the React, Redux and Firebase tutorial from Net Ninja on YouTube."
-  },
-  {
-    title: "Music Player",
-    images: [
-      {
-        original: '/original/music-player.webp',
-        thumbnail: '/thumbnail/music-player_tn.webp',
-        original: '/original/music-player.jpg',
-        thumbnail: '/thumbnail/music-player_tn.jpg'
-      }
-    ],
-    description: "A Javascript project",
-    id: "music-player",
-    webLink: 'https://johnmichaelbutler.github.io/music-player/',
-    githubLink: 'https://github.com/johnmichaelbutler/music-player',
-    summary: "Music player is a javascript music player application. The user has the ability to fast forward or rewind in a song, as well as skip songs. This app was used to learn how to work with audio events in javascript and is taken from Zero to Mastery JS Projects course.   "
-  },
-  // {
-  //   id: 6,
-  //   title: "Smart Brain Face Detector",
-  //   image: 'smart-brain.webp',
-  //   description: "A React project",
-  //   alt: "A React project",
-  //   webLink: 'https://butler-smart-brain.herokuapp.com/',
-  //   githubLink: 'https://github.com/johnmichaelbutler/smart-brain-api'
-  // },
+  }
 ];
 
 export const getProjectData = (id) => {
@@ -165,7 +140,6 @@ export const getAllProjectIds = () => {
     { params: { id: 'reactcolorpicker'}},
     { params: { id: 'crwnclothing'}},
     { params: { id: 'nasa-mission-control'}},
-    { params: { id: 'mario-plan'}},
-    { params: { id: 'music-player'}},
+    { params: { id: 'mario-plan'}}
   ]
 }
