@@ -4,6 +4,7 @@ import Skills from '../components/skills';
 import Projects from '../components/projects';
 import About from '../components/about';
 import Contact from '../components/contact';
+import AWSSection from '../components/aws';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <Hero className="snap-start"/>
           <About className="snap-start"/>
           <Skills />
+          <AWSSection />
           <Projects />
           <Contact />
         </main>

@@ -8,7 +8,7 @@ const Contact = () => {
     <div id='contact' className='h-auto lg:h-screen lg:grid md:grid-cols-4 lg:snap-start lg:always-stop mx-2 lg:pt-20'>
       <div className='lg:col-span-1' />
       <div className='lg:col-span-3 md:pt-40 pt-20'>
-        <p className='section-header reflect-small'>Contact</p>
+        <p className='section-header'>Contact</p>
         <div className='lg:flex lg:pt-20'>
           <div className='lg:w-2/5 flex flex-col text-primary items-center mb-5'>
             <a href="https://twitter.com/johnbutlerdev" target="_blank" rel="noopener">
@@ -27,7 +27,7 @@ const Contact = () => {
           <div className='lg:w-3/5 md:mr-3 font-bold text-2xl text-primary my-auto text-center'>
             <p>Have any questions for me? Interested in working together? Let's connect!</p>
             <br />
-            <a href="mailto:johnmichaelbutler@yahoo.com" className='hover:text-gray-600'>johnmichaelbutler@yahoo.com</a>
+            <a href="mailto:johnbutlerdev@yahoo.com" className='hover:text-gray-600'>johnbutlerdev@yahoo.com</a>
             <div className='block mx-auto '>
               <a href="/ButlerJohnResume.pdf" target="_blank" rel="noopener">
                 <button type='button' className='bg-primary btn cursor-pointer transform shadow-lg hover:shadow-2xl hover:-translate-y-1 active:outline-none active:translate-y-0 active:shadow-lg focus:outline-none'>

@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         lobster: ['Lobster'],
-        oswald: ['Oswald'],
+        garamond: ['Garamond'],
       },
       width: {
         9: '90',

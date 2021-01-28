@@ -18,8 +18,8 @@ const Projects = () => {
     <div className='h-auto lg:h-screen lg:pl-5 md:grid lg:grid-cols-4 snap-start always-stop mb-8 lg:mb-0'>
       <div className='lg:col-span-1' />
       <div className="lg:col-span-3 pt-10">
-        <p className='section-header reflect-large'>
-          Projects
+        <p className='section-header'>
+          Web Development Projects
         </p>
         <div className='pt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-4'>
           {cards}

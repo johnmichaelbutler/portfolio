@@ -27,7 +27,7 @@ export const projectData = [
       thumbnail: '/thumbnail/reactcolorpicker4_tn.jpg'
       },
     ],
-    description: "A react project",
+    description: "A React project",
     id: "reactcolorpicker",
     webLink: 'https://jb-reactcolorpicker.netlify.app/',
     githubLink: 'https://github.com/johnmichaelbutler/color-app',
@@ -61,7 +61,7 @@ export const projectData = [
         thumbnail: '/thumbnail/crwnclothing4_tn.jpg'
       },
     ],
-    description: "A react/redux/firebase project",
+    description: "A React/Redux/Firebase project",
     id: "crwnclothing",
     webLink: 'https://crwn-clothing-react-project.herokuapp.com/',
     githubLink: 'https://github.com/johnmichaelbutler/crwn-clothing',
@@ -91,7 +91,7 @@ export const projectData = [
     ],
     description: "A TS/Deno/Docker/AWS project",
     id: "nasa-mission-control",
-    webLink: 'http://ec2-3-81-118-56.compute-1.amazonaws.com:8000/index.html',
+    webLink: 'http://ec2-52-14-201-38.us-east-2.compute.amazonaws.com:8000/index.html',
     githubLink: 'https://github.com/johnmichaelbutler/deno_final_project',
     summary: "NASA Mission Control is a simulation of a  NASA Mission Control panel. A user is able to schedule a NASA rocket launch.  The user also has the ability to see upcoming and historical launches. NASA Mission Control uses TypeScript on the frontend, Deno on the backend to manage security and API requests, and is deployed using Docker and AWS EC2. This project, taken from the Zero to Mastery Deno course, also includes custom API endpoints for data requests."
   },

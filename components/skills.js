@@ -3,7 +3,7 @@ const Skills = () => {
     <div className="h-auto lg:h-screen lg:grid lg:grid-cols-4 mb-24 lg:mb-0 snap-start always-stop">
       <div className="lg:col-span-1" />
       <div className="lg:col-span-3 pt-10 lg:pt-20">
-        <h1 className="section-header reflect-small">Skills</h1>
+        <h1 className="section-header">Skills</h1>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 items-start justify-center pt-10 lg:pt-20 text-2xl text-gray-800 mx-4">
           <div className="col-span-1 mx-auto">
             <h2 className="font-bold text-3xl text-shadow">Languages</h2>
@@ -27,26 +27,15 @@ const Skills = () => {
             </ul>
           </div>
           <div className="col-span-1  mx-auto">
-            <h2 className="font-bold text-3xl text-shadow text-center">AWS</h2>
+            <h2 className="font-bold text-3xl text-shadow text-center">Cloud Computing</h2>
             <ul className="">
-              <li className="flex items-center text-center">
-                Many services including...
+              <li className="flex items-center">
+                <img src="/icons/aws-icon.svg" className="h-4 mr-1" alt="aws" />
+                Amazon Web Services
               </li>
               <li className="flex items-center">
-                <img src="/icons/lambda.svg" className="h-6 mr-1" alt="lambda" />
-                Lambda
-              </li>
-              <li className="flex items-center">
-                <img src="/icons/dynamodb.svg" className="h-6 mr-1" alt="dynamodb" />
-                DynamoDB
-              </li>
-              <li className="flex items-center">
-                <img
-                  src="/icons/cloudformation.svg"
-                  className="h-6 mr-1"
-                  alt="cloudformation"
-                />
-                CloudFormation
+                <img src="/icons/firebase.svg" className="h-6 mr-1" alt="firebase" />
+                  Google Firebase
               </li>
             </ul>
           </div>
