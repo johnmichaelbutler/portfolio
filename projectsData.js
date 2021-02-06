@@ -128,6 +128,22 @@ export const projectData = [
     webLink: 'https://marioplan-8b34e.web.app/signin',
     githubLink: 'https://github.com/johnmichaelbutler/marioPlan',
     summary: "Mario Plan is a Mario-themed project management tool with authentification and cloud functions. This ap is made using React, Redux and Google Firebase. The user can create their own projects and notifications. In order to create or edit a project, the user must first log in or create an account. Authentification is managed through Google Firebase. State management is handled through Redux and notifications are handled through Firebase cloud functions. This app is taken from the React, Redux and Firebase tutorial from Net Ninja on YouTube."
+  },
+  {
+    title: "Portfolio Website",
+    images: [
+      {
+        original: '/original/portfolio.webp',
+        thumbnail: '/thumbnail/portfolio_tn.jpg',
+        original: '/original/portfolio.jpg',
+        thumbnail: '/thumbnail/portfolio_tn.jpg'
+      }
+    ],
+    description: "A Next.JS/TailwindCSS/AWS project",
+    id: "portfolio",
+    webLink: 'https://johnbutler.dev',
+    githubLink: 'https://github.com/johnmichaelbutler/portfolio',
+    summary: "This website is made using the React framework Next.JS. Next.JS was chosen for its ability to easily produce static websites and its file-system-based routing. TailwindCSS was chosen as the CSS framework. I like working with TailwindCSS because of its utility-first approach to CSS and small build size in production. To host the website, I utilize AWS S3 static website hosting. The website is distributed using an AWS CloudFront distribution and utilizes HTTPS through a certificate from AWS Certificate Manager. AWS Route 53 is used as the DNS for both this website and blog, blog.johnbutler.dev."
   }
 ];
 
@@ -140,6 +156,7 @@ export const getAllProjectIds = () => {
     { params: { id: 'reactcolorpicker'}},
     { params: { id: 'crwnclothing'}},
     { params: { id: 'nasa-mission-control'}},
-    { params: { id: 'mario-plan'}}
+    { params: { id: 'mario-plan'}},
+    { params: { id: 'portfolio'}},
   ]
 }

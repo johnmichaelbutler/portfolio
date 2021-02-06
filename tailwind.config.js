@@ -1,5 +1,6 @@
 module.exports = {
-  purge: ['./**/*.html', './**/*.js'],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  darkMode: false,
   theme: {
     maxWidth: {
       '3/4': '75%',
@@ -8,6 +9,7 @@ module.exports = {
       fontFamily: {
         lobster: ['Lobster'],
         garamond: ['Garamond'],
+        oswald: ['Oswald']
       },
       width: {
         9: '90',
@@ -24,7 +26,7 @@ module.exports = {
         primary: '#2d3748',
         'bg-light': '#f2f2f2',
         'bg-dark': '#696969',
-        'burnt-orange': 'rgba(183, 109, 12, 60%)',
+        'burnt-orange': 'rgba(183, 109, 12, 50%)',
         'linkedin-blue': '#4875B4',
         'twitter-blue': '#00ACED',
         'github-purple': '#320782',
@@ -75,17 +77,10 @@ module.exports = {
   },
   variants: {
     height: ['responsive'],
-    scrollSnapType: ['responsive'],
     display: ['responsive'],
     visibility: ['hover'],
     backgroundColor: ['hover', 'responsive'],
     translate: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     boxShadow: ['responsive', 'hover', 'focus', 'active'],
   },
-  plugins: [require('tailwindcss-scroll-snap')],
 };
-
-// 'color-transition': {
-//   '0%': { color: '#2d3748', backgroundColor: 'white'},
-//   '100%': { color: 'white', backgroundColor}
-// }

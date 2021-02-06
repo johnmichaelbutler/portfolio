@@ -1,13 +1,13 @@
 const Skills = () => {
   return (
-    <div className="h-auto lg:h-screen lg:grid lg:grid-cols-4 mb-24 lg:mb-0 snap-start always-stop">
+    <div className="h-auto lg:h-screen lg:grid lg:grid-cols-4 mb-24 lg:mb-0">
       <div className="lg:col-span-1" />
       <div className="lg:col-span-3 pt-10 lg:pt-20">
         <h1 className="section-header">Skills</h1>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 items-start justify-center pt-10 lg:pt-20 text-2xl text-gray-800 mx-4">
           <div className="col-span-1 mx-auto">
             <h2 className="font-bold text-3xl text-shadow">Languages</h2>
-            <ul className="">
+            <ul className="space-y-2">
               <li className="flex items-center">
                 <img src="/icons/js.svg" className="h-6 mr-1" alt="javascript" />
                 JavaScript
@@ -27,8 +27,8 @@ const Skills = () => {
             </ul>
           </div>
           <div className="col-span-1  mx-auto">
-            <h2 className="font-bold text-3xl text-shadow text-center">Cloud Computing</h2>
-            <ul className="">
+            <h2 className="font-bold text-3xl text-shadow ">Cloud Computing</h2>
+            <ul className="space-y-2">
               <li className="flex items-center">
                 <img src="/icons/aws-icon.svg" className="h-4 mr-1" alt="aws" />
                 Amazon Web Services
@@ -41,7 +41,7 @@ const Skills = () => {
           </div>
           <div className="col-span-1  mx-auto">
             <h2 className="font-bold text-3xl text-shadow">Web Dev</h2>
-            <ul className="">
+            <ul className="space-y-2">
               <li className="flex items-center">
                 <img
                   src="/icons/node-dot-js.svg"
@@ -78,7 +78,7 @@ const Skills = () => {
           </div>
           <div className="col-span-1  mx-auto">
             <h2 className="font-bold text-3xl text-shadow">Databases</h2>
-            <ul className="">
+            <ul className="space-y-2">
               <li className="flex items-center">
                 <img src="/icons/mysql.svg" className="h-6 mr-1" alt="mysql" />
                 MySQL

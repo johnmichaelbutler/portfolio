@@ -46,17 +46,17 @@ const Project = ({ project }) => {
             {description}
           </h2>
           <div className="flex justify-around my-6 text-2xl">
-            <a href={`${webLink}`} target="_blank">
+            <a href={`${webLink}`} target="_blank" className="hover:text-gray-600">
               <FontAwesomeIcon
                 icon={faDesktop}
-                className="mx-auto hover:text-gray-600 text-primary mr-3"
+                className="mx-auto w-7 inline-flex text-primary mr-3 hover:text-gray-600"
               />
               <span>See The Site</span>
             </a>
-            <a href={`${githubLink}`} target="_blank">
+            <a href={`${githubLink}`} target="_blank" className="hover:text-gray-600">
               <FontAwesomeIcon
                 icon={faGithub}
-                className="mx-auto hover:text-gray-600 text-primary mr-3"
+                className="mx-auto w-7 inline-flex h text-primary mr-3 hover:text-gray-600"
               />
               <span className="t">See the Code</span>
             </a>

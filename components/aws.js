@@ -1,6 +1,6 @@
 const AWSSection = () => {
   return (
-    <div className='h-auto lg:h-screen lg:grid lg:grid-cols-4 snap-start always-stop animate-fade-in mb-24 lg:mb-0'>
+    <div className='h-auto lg:h-screen lg:grid lg:grid-cols-4 animate-fade-in mb-24 lg:mb-0'>
       <div className='lg:col-span-1' />
       <div className='lg:col-span-3 lg:pt-40 '>
         <div className='grid lg:flex items-center justify-around pt-10 lg:pt-20 w-11/12 mx-auto'>
@@ -9,12 +9,15 @@ const AWSSection = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-start justify-center pt-10 lg:pt-20 text-2xl text-gray-800 mx-4'>
               <div className="col-span-1 mx-auto">
                 <h2 className="font-bold text-3xl text-shadow">AWS Certifications</h2>
-                <ul className="">
+                <ul className="space-y-2">
                   <li className="flex items-center">
                     Solutions Architect - Associate
                   </li>
                   <li className="flex items-center">
                     Developer - Associate
+                  </li>
+                  <li className="flex items-center">
+                    SysOps Administrator - Associate
                   </li>
                   <li className="flex items-center">
                     Cloud Practitioner
@@ -23,7 +26,7 @@ const AWSSection = () => {
               </div>
               <div className="col-span-1 mx-auto">
                 <h2 className="font-bold text-3xl text-shadow">AWS Technologies</h2>
-                <ul className="">
+                <ul className="space-y-2">
                   <li className="flex items-center">
                     Lambda
                   </li>

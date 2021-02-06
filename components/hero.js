@@ -5,7 +5,7 @@ import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   return (
-    <div className="px-2 md:px-0 w-full h-full lg:h-screen lg:pt-10 relative lg:bg-burnt-orange lg:w-1/4 lg:fixed snap-start animate-fade-in-left">
+    <div className="px-2 md:px-0 w-full h-full lg:h-screen lg:pt-10 relative lg:bg-burnt-orange lg:w-1/4 lg:fixed animate-fade-in-left">
       <h1 className="text-6xl font-garamond text-center text-primary pb-15 text-shadow">
         John Butler
       </h1>
@@ -16,7 +16,7 @@ const Hero = () => {
       />
       <div>
         <h2 className="font-oswald font-light text-4xl lg:text-3xl xl:text-4xl mb-2 mt-2 text-center">
-          AWS Cloud Developer & Solutions Architect Associate
+          AWS DevOps Engineer
         </h2>
         <h3 className="font-oswald font-light text-2xl mb-2 mt-2 text-center">
           Harlingen, TX
