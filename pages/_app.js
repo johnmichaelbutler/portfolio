@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="DevOps Engineer for hire. John Butler's Portfolio site"
+          content="Cloud Software Engineer for hire. John Butler's Portfolio site"
         />
         <title>John Butler</title>
         <link rel="icon" href="/favicon.ico" />

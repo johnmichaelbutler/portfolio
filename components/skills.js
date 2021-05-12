@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="h-auto lg:h-screen lg:grid lg:grid-cols-4 mb-24 lg:mb-0">
+    <div className="h-auto lg:h-3/4 lg:grid lg:grid-cols-4 mb-24 lg:mb-0">
       <div className="lg:col-span-1" />
       <div className="lg:col-span-3 pt-10 lg:pt-20">
         <h1 className="section-header">Skills</h1>
@@ -90,6 +90,48 @@ const Skills = () => {
                   alt="mongodb"
                 />
                 MongoDB
+              </li>
+              <li className="flex items-center">
+                <img
+                  src="/icons/dynamodb.svg"
+                  className="h-6 mr-1"
+                  alt="dynamodb"
+                />
+                Amazon <br/>DynamoDB
+              </li>
+            </ul>
+          </div>
+          <div className="col-span-1  mx-auto">
+            <h2 className="font-bold text-3xl text-shadow">Containers</h2>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <img src="/icons/docker.svg" className="h-6 mr-1" alt="docker" />
+                Docker
+              </li>
+              <li className="flex items-center">
+                <img src="/icons/kubernetes.svg" className="h-6 mr-1" alt="kubernetes" />
+                Kubernetes
+              </li>
+              <li className="flex items-center">
+                <img src="/icons/ecs.svg" className="h-6 mr-1"alt="ecs" />
+                Elastic <br/>Container <br/> Service
+              </li>
+              <li className="flex items-center">
+                <img src="/icons/eks.svg" className="h-6 mr-1"alt="eks" />
+                Elastic <br/>Kubernetes <br/>Service
+              </li>
+            </ul>
+          </div>
+          <div className="col-span-1 mx-auto">
+            <h2 className="font-bold text-3xl text-shadow">Platforms</h2>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <img src="/icons/mac.svg" className="h-6 mr-1" alt="macOS" />
+                macOS
+              </li>
+              <li className="flex items-center">
+                <img src="/icons/linux.svg" className="h-6 mr-1" alt="linux" />
+                Linux
               </li>
             </ul>
           </div>

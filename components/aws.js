@@ -1,4 +1,22 @@
 const AWSSection = () => {
+
+  const awsSkills = ['Lambda', 'DynamoDB', 'API Gateway', 'S3', 'CloudFormation', 'Route 53', 'EC2', 'Elastic Container Service', 'Elastic Kubernetes Service'].map((skill) => {
+    return (
+    <li className="flex items-center" key={skill}>
+      {skill}
+    </li>
+  )});
+
+  const awsCerts = ['Solutions Architect - Associate', 'Developer - Associate', 'SysOps Administrator - Associate', 'Cloud Practitioner'].map((cert) => {
+    return (
+      <li className="flex items-center" key={cert}>
+        {cert}
+      </li>
+    )
+  })
+
+
+
   return (
     <div className='h-auto lg:h-screen lg:grid lg:grid-cols-4 animate-fade-in mb-24 lg:mb-0'>
       <div className='lg:col-span-1' />
@@ -10,50 +28,13 @@ const AWSSection = () => {
               <div className="col-span-1 mx-auto">
                 <h2 className="font-bold text-3xl text-shadow">AWS Certifications</h2>
                 <ul className="space-y-2">
-                  <li className="flex items-center">
-                    Solutions Architect - Associate
-                  </li>
-                  <li className="flex items-center">
-                    Developer - Associate
-                  </li>
-                  <li className="flex items-center">
-                    SysOps Administrator - Associate
-                  </li>
-                  <li className="flex items-center">
-                    Cloud Practitioner
-                  </li>
+                  {awsCerts}
                 </ul>
               </div>
               <div className="col-span-1 mx-auto">
                 <h2 className="font-bold text-3xl text-shadow">AWS Technologies</h2>
                 <ul className="space-y-2">
-                  <li className="flex items-center">
-                    Lambda
-                  </li>
-                  <li className="flex items-center">
-                    DynamoDB
-                  </li>
-                  <li className="flex items-center">
-                    API Gateway
-                  </li>
-                  <li className="flex items-center">
-                    S3
-                  </li>
-                  <li className="flex items-center">
-                    CloudFormation
-                  </li>
-                  <li className="flex items-center">
-                    Route 53
-                  </li>
-                  <li className="flex items-center">
-                    EC2
-                  </li>
-                  <li className="flex items-center">
-                    CloudWatch
-                  </li>
-                  <li className="flex items-center">
-                    IAM
-                  </li>
+                  {awsSkills}
                 </ul>
               </div>
             </div>

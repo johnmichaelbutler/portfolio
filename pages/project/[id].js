@@ -20,6 +20,7 @@ const Project = ({ project }) => {
     githubLink,
     summary,
     id,
+    active
   } = project[0];
 
   return (
@@ -46,7 +47,7 @@ const Project = ({ project }) => {
             {description}
           </h2>
           <div className="flex justify-around my-6 text-2xl">
-            <a href={`${webLink}`} target="_blank" className="hover:text-gray-600">
+            <a href={`${webLink}`} target="_blank" className={`hover:text-gray-600 ${active ? '' : 'invisible'}`}>
               <FontAwesomeIcon
                 icon={faDesktop}
                 className="mx-auto w-7 inline-flex text-primary mr-3 hover:text-gray-600"

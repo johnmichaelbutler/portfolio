@@ -16,10 +16,13 @@ const Hero = () => {
       />
       <div>
         <h2 className="font-oswald font-light text-4xl lg:text-3xl xl:text-4xl mb-2 mt-2 text-center">
-          AWS DevOps Engineer
+          AWS Cloud Software Engineer
         </h2>
         <h3 className="font-oswald font-light text-2xl mb-2 mt-2 text-center">
           Harlingen, TX
+        </h3>
+        <h3 className="font-oswald font-light text-2xl mb-2 mt-2 text-center">
+          Open for Remote Work
         </h3>
         <div className="flex justify-center lg:flex-col lg:items-center ">
           <a href="https://blog.johnbutler.dev">

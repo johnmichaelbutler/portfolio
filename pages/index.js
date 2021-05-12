@@ -4,6 +4,8 @@ import Projects from '../components/projects';
 import About from '../components/about';
 import Contact from '../components/contact';
 import AWSSection from '../components/aws';
+import Experience from '../components/experience';
+import Education from '../components/education';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
           <Skills />
           <AWSSection />
           <Projects />
+          <Experience />
+          <Education />
           <Contact />
         </main>
     </div>

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "deploy-to-aws": "next build && next export && aws s3 sync . s3://johnbutler.dev"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
